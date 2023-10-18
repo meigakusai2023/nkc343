@@ -1,0 +1,23 @@
+/* main.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e5e5e5;
+}
+
+/* フッターを画面の右下に配置 */
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 11px;
+}
+
+/* ------ レスポンシブデザイン(スマホ用) ------ */
+@media screen and (max-width: 414px) {}
