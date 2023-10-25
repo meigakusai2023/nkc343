@@ -1,15 +1,77 @@
-/* main.css */
+/* ===== サイト全体の共通スタイルを記述 ===== */
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    flex-direction: column;
-    background-color: #e5e5e5;
+    background-color: #EFECEC;
+    width: 430px;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ========== ヘッダー ========== */
+header {
+    max-width: 430px;
+    height: 50px;
+    background: rgba(255, 251, 251, 0.86);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+
+header li {
+    width: 45px;
+    margin-left: 10px;
+}
+
+.material-symbols-outlined {
+    margin-left: 5px;
+}
+
+.item-game {
+    margin-left: 0;
+}
+
+.icons-games {
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 200px;
+    height: 50px;
+}
+
+/* ========== メインコンテンツ ========== */
+.title {
+    max-width: 430px;
+    height: 40px;
+    background-color: #FF6;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -3px 6px 0px rgba(50, 50, 50, 0.45);
+    margin: 31px 0 28px 0;
+}
+
+.title p {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 28px;
+}
+
+/* ========== フッター ========== */
 /* フッターを画面の右下に配置 */
 footer {
     position: fixed;
