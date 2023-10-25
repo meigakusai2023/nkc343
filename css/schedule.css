@@ -1,0 +1,52 @@
+.alert {
+    margin-top: 30px;
+    width: 340px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    left: 10%;
+}
+
+.alert p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+}
+
+td,
+th {
+    border-collapse: collapse;
+    padding: 2px;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hard {
+    width: 190px;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    border: 1px double #fff;
+}
+
+td {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.blank {
+    height: 50px;
+}
