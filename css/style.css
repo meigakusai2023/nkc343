@@ -19,6 +19,7 @@ p {
     color: #000;
 }
 
+
 /* ========== ヘッダー ========== */
 header {
     max-width: 430px;
@@ -81,6 +82,7 @@ header li {
     font-style: normal;
     font-weight: 600;
     margin-left: 28px;
+    
 }
 
 /* ========== フッター ========== */
