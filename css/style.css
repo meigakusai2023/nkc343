@@ -66,6 +66,24 @@ header li {
     text-align: center;
 }
 
+/* 注意事項 */
+.alert {
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    background-color: #97ffd0;
+    position: relative;
+    left: 3%;
+    border-radius: 5px;
+}
+
+.alert p {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* タイトル */
 .title {
     max-width: 430px;
     height: 40px;
@@ -77,12 +95,13 @@ header li {
 }
 
 .title p {
-    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    margin-left: 28px;
-    
+}
+
+.blank {
+    height: 50px;
 }
 
 /* ========== フッター ========== */

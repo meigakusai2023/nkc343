@@ -1,0 +1,13 @@
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.alert-text {
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.alert-text p {
+    padding-top: 5px;
+}

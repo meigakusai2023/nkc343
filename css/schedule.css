@@ -1,18 +1,9 @@
 .alert {
-    margin-top: 30px;
-    width: 400px;
-    height: 60px;
-    background-color: #97ffd0;
     text-align: center;
-    position: relative;
-    left: 3%;
-    border-radius: 5px;
 }
 
-.alert p {
-    padding-top: 8px;
-    font-size: 16px;
-    font-weight: 600;
+.title p {
+    margin-left: 28px;
 }
 
 table {
@@ -31,7 +22,7 @@ th {
     text-align: center;
     font-weight: 600;
     line-height: normal;
-    padding-top:7px;
+    padding-top: 7px;
 }
 
 .hard {
@@ -49,8 +40,4 @@ th {
 td {
     background-color: #fff;
     border: 1px solid #000;
-}
-
-.blank {
-    height: 50px;
 }
