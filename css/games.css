@@ -1,0 +1,54 @@
+.alert {
+    display: flex;
+    align-items: center;
+}
+
+.alert-text {
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.alert-text p {
+    padding-top: 5px;
+}
+
+
+.title {
+    justify-content: center;
+}
+
+/* 各ゲームのタイトルと説明・動画を表示するコンテンツ */
+.icons-help {
+    position: absolute;
+    left: 360px;
+    top: 3px;
+}
+
+
+.left-blank {
+    padding-left: 30px;
+}
+
+/* 各ゲームの動画の設定 */
+.game-video {
+    margin-left: 10px;
+    width: 380px;
+    height: 180px;
+    text-align: center;
+}
+
+.game-video p {
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+/* 各ゲームの出典元の設定 */
+.game-site p {
+    margin: 10px 0 0 15px;
+    font-size: 11px;
+}
+
+.game-site a {
+    margin: 10px 0 0 15px;
+    font-size: 10px;
+}

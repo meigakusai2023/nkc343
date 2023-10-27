@@ -66,8 +66,26 @@ header li {
     text-align: center;
 }
 
+/* 注意事項 */
+.alert {
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+    background-color: #97ffd0;
+    position: relative;
+    left: 3%;
+    border-radius: 5px;
+}
+
+.alert p {
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* タイトル */
 .title {
-    max-width: 430px;
+    width: 430px;
     height: 40px;
     background-color: #FF6;
     display: flex;
@@ -77,12 +95,52 @@ header li {
 }
 
 .title p {
-    font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    margin-left: 28px;
-    
+}
+
+.game-card {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin: 30px auto 0 auto;
+    box-shadow: 3px 2px 2px #aeabab;
+}
+
+.black {
+    background-color: #000;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 2px 2px #8e8e8e;
+}
+
+/* 各ゲームのタイトルの設定 */
+.game-name {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #000;
+    position: relative;
+}
+
+.game-name p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* 各ゲームの説明文の設定 */
+.game-description {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.blank {
+    height: 50px;
 }
 
 /* ========== フッター ========== */
