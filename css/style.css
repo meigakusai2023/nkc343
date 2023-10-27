@@ -85,7 +85,7 @@ header li {
 
 /* タイトル */
 .title {
-    max-width: 430px;
+    width: 430px;
     height: 40px;
     background-color: #FF6;
     display: flex;

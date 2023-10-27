@@ -11,3 +11,82 @@
 .alert-text p {
     padding-top: 5px;
 }
+
+
+.title {
+    justify-content: center;
+}
+
+/* 各ゲームのタイトルと説明・動画を表示するコンテンツ */
+.game-card {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin: 30px auto 0 auto;
+    box-shadow: 3px 2px 2px #aeabab;
+}
+
+.black {
+    background-color: #000;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 2px 2px #8e8e8e;
+}
+
+/* 各ゲームのタイトルの設定 */
+.game-name {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #000;
+    position: relative;
+}
+
+.game-name p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.icons-help {
+    position: absolute;
+    left: 360px;
+    top: 3px;
+}
+
+/* 各ゲームの説明文の設定 */
+.game-description {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.left-blank {
+    padding-left: 30px;
+}
+
+/* 各ゲームの動画の設定 */
+.game-video {
+    margin-left: 10px;
+    width: 380px;
+    height: 180px;
+    text-align: center;
+}
+
+.game-video p {
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+/* 各ゲームの出典元の設定 */
+.game-site p {
+    margin: 10px 0 0 15px;
+    font-size: 11px;
+}
+
+.game-site a {
+    margin: 10px 0 0 15px;
+    font-size: 10px;
+}
