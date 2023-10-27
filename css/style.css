@@ -100,6 +100,45 @@ header li {
     font-weight: 600;
 }
 
+.game-card {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin: 30px auto 0 auto;
+    box-shadow: 3px 2px 2px #aeabab;
+}
+
+.black {
+    background-color: #000;
+    width: 400px;
+    height: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 2px 2px #8e8e8e;
+}
+
+/* 各ゲームのタイトルの設定 */
+.game-name {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid #000;
+    position: relative;
+}
+
+.game-name p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* 各ゲームの説明文の設定 */
+.game-description {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    display: flex;
+}
+
 .blank {
     height: 50px;
 }
