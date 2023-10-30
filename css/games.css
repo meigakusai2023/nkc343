@@ -58,9 +58,15 @@
 }
 
 .textlink:hover{
-    color:lightblue;
-  }
+    color:violet;
+}
 
 .textlink:visited{
     color:red;
 }
+
+
+.textlink:visited:hover{
+    color:purple;
+}   
+
