@@ -52,3 +52,15 @@
     margin: 10px 0 0 15px;
     font-size: 10px;
 }
+/* リンクの色変更 */
+.textlink{
+    color:blue;
+}
+
+.textlink:hover{
+    color:lightblue;
+  }
+
+.textlink:visited{
+    color:red;
+}
