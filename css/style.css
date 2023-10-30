@@ -75,6 +75,8 @@ header li {
     position: relative;
     left: 3%;
     border-radius: 5px;
+    /* ヘッダーに被らないように */
+    z-index:-1;
 }
 
 .alert p {
