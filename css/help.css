@@ -86,3 +86,8 @@ main {
     font-weight: 600;
     line-height: normal;
 }
+
+.link {
+    text-decoration: underline;
+    color: red;
+}
