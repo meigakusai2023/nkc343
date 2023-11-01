@@ -71,7 +71,7 @@ main {
 }
 
 .everybady-card {
-    height: 220px;
+    height: 300px;
 }
 
 .discreption {
@@ -85,6 +85,11 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/* 黄色タイトル真ん中ぞろえ */
+div.title{
+    justify-content: center;
 }
 
 .link {
