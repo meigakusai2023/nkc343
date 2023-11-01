@@ -1,6 +1,6 @@
 h2 {
     display: flex;
-    width: 349px;
+    width: 350px;
     height: 24px;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@ main {
 }
 
 .discreption-box {
-    width: 340px;
+    width: 350px;
     height: 130px;
     flex-shrink: 0;
     border: 1px solid #000;
@@ -33,7 +33,7 @@ main {
 }
 
 .box-ashe {
-    width: 340px;
+    width: 350px;
     height: 53px;
     flex-shrink: 0;
     border: 1px solid #000;
