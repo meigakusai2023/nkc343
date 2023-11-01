@@ -24,7 +24,7 @@ main {
 
 .discreption-box {
     width: 350px;
-    height: 200px;
+    height: 220px;
     flex-shrink: 0;
     border: 1px solid #000;
     background: #FFF;
@@ -71,7 +71,7 @@ main {
 }
 
 .everybady-card {
-    height: 220px;
+    height: 260px;
 }
 
 .discreption {
